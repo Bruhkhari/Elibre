@@ -147,16 +147,17 @@ function App() {
           }
         >
           <Nav className="flex-column text-black w-100 p-2">
-            <Nav.Item>
+            <Nav.Item style = {{ color: 'white'}}>
               <strong>Genres</strong>
             </Nav.Item>
             {categories.map((category) => (
               <Nav.Item key={category}>
                 <LinkContainer
+                 style = {{ color: 'white'}}
                   to={`/search?category=${category}`}
                   onClick={() => setSidebarIsOpen(false)}
                 >
-                  <Nav.Link>{category}</Nav.Link>
+                  <Nav.Link >{category}</Nav.Link>
                 </LinkContainer>
               </Nav.Item>
             ))}
