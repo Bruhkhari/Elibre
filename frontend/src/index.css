@@ -23,10 +23,16 @@ main {
 }
 .btn-primary,
 .btn-outline-primary {
+
   
   background-color: #ffffff;
   color: #000000;
+
+  background-color: #01092a;
+  color: white;
+
 }
+
 .products {
   display: flex;
   flex-wrap: wrap;
@@ -76,7 +82,11 @@ main {
   height: 100%;
   position: absolute;
   left: -300px;
+
   background-color: #e9e9ff;
+
+  background-color: #0b0707;
+
   transition: 0.5s;
 }
 
